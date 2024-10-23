@@ -64,22 +64,23 @@
         </nav>
       </header>
 
-      <!-- Hero Section -->
-      <section
-        class="bg-cover bg-center py-32"
-        style="background-image: url('https://files.catbox.moe/mawrm7.png');"
-      >
-        <div class="container mx-auto text-center text-white">
-          <h1 class="text-4xl md:text-6xl font-bold drop-shadow-lg">
-            Experience The Magic Of Flight!
-          </h1>
-          <p class="mt-4 text-lg md:text-2xl">Elevate Your Travel Journey</p>
-          <button class="mt-8 bg-blue-600 text-white py-2 px-6 md:py-3 md:px-8 rounded-full hover:bg-blue-700 transition duration-300">
-            Book A Trip Now
-          </button>
-        </div>
-      </section>
-    </div>
+   <!-- Hero Section -->
+<section
+  class="bg-cover bg-center py-32 relative"
+  style="background-image: url('https://files.catbox.moe/mawrm7.png');"
+>
+  <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Overlay for better text contrast -->
+  <div class="container mx-auto text-center text-white relative z-10">
+    <h1 class="text-4xl md:text-6xl font-bold drop-shadow-lg">
+      Experience The Magic Of Flight!
+    </h1>
+    <p class="mt-4 text-lg md:text-2xl">Elevate Your Travel Journey</p>
+    <button class="mt-8 bg-blue-600 text-white py-2 px-6 md:py-3 md:px-8 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+      Book A Trip Now
+    </button>
+  </div>
+</section>
+
 
     <script>
       // Scroll effect for header
